@@ -1,0 +1,89 @@
+body {
+    font-family: 'Lato', arial, sans-serif;
+    color: #333333;
+    background-color: #ff6f4b;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+}
+
+/* ---- 1st page content ---- */
+
+.content {
+    width: 75%;
+    margin: auto;
+    position: absolute;
+    min-width: 30em;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#logoBox {
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    width: 30em;
+    pointer-events: none;
+}
+
+#countdown {
+    width: 720px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* ---- NAV BAR ---- */
+
+.nav {
+    font-size: 2.75em;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    margin-left: 0%;
+    margin-right: 3%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    margin-left: 25px;
+}
+
+.nav a {
+    color: #BA5137;
+    text-align: left;
+    display: block;
+    cursor: pointer;
+    margin-top: 5px;
+    -webkit-transition: padding-left 0.25s cubic-bezier(0, 0.65, 0.085, 0.75);
+    transition: padding-left 0.25s cubic-bezier(0, 0.65, 0.085, 0.75);
+}
+
+.nav a:hover {
+    padding-left: 10px;
+}
+
+.nav a:hover .nav-icon-label {
+    color: #333333;
+}
+
+.nav-icon-label {
+    position: relative;
+    top: -11px;
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 8px;
+    white-space: nowrap;
+    color: transparent;
+    -webkit-transition: color 0.25s cubic-bezier(0, 0.65, 0.085, 0.75);
+    transition: color 0.25s cubic-bezier(0, 0.65, 0.085, 0.75);
+}
