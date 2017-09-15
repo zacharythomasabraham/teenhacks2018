@@ -1,13 +1,22 @@
 $(document).ready(function() {
-    var days = (function() {
-        var oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-        var secondDate = new Date(2018, 0, 13);
-        var firstDate = new Date();
-        return (secondDate.getTime() - firstDate.getTime()) / 1000;
-    })();
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('hr');
+    sr.reveal('.col-12');
+    sr.reveal('.row');
+});
 
-    var clock = $('#countdown').FlipClock(days, {
-        clockFace: 'DailyCounter',
-        countdown: true
-    });
+// scrolling //
+
+$('a[href*=\\#]').on('click', function(event) {
+    event.preventDefault();
+    $('html,body').animate({ scrollTop: $(this.hash).offset().top }, easeOutSine, 500);
+});
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 50) {
+        $('#scrollToTop:hidden').fadeIn();
+    }
+    else {
+        $('#scrollToTop').fadeOut();
+    }
 });
