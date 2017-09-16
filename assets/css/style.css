@@ -5,7 +5,7 @@ html {
 body {
     overflow-x: hidden;
     font-family: 'Lato', Arial, sans-serif;
-    color: #7D7D7D;
+    color: #8F8F8F;
     background-color: #333333;
 }
 
@@ -82,7 +82,7 @@ section {
 .social {
     font-size: 2em;
     margin: 5px;
-    color: #7D7D7D;
+    color: #8F8F8F;
     position: relative;
     transition: all 0.2s ease-in;
 }
@@ -205,7 +205,7 @@ a:active {
 }
 
 .toTopLink {
-    color: #7D7D7D;
+    color: #8F8F8F;
     text-align: right;
     display: block;
     cursor: pointer;
