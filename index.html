@@ -5,14 +5,17 @@
 <head>
   <meta charset="utf-8">
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat|Open+Sans|PT+Mono" rel="stylesheet">
   <script src="https://use.fontawesome.com/a53f2d041c.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="assets/js/skrollr.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="assets/js/main.js"></script>
@@ -23,17 +26,36 @@
 <body>
   <div id="top"></div>
 
-  <!-- DESKTOP NAVBAR !-->
   <div id="toTopNav">
-    <div id="scrollToTop"><a href="#top" class="toTopLink"><i aria-hidden="true" class="fa fa-chevron-up"></i></a></div>
-  </div>
-  <div class="leftNav">
-    <a href="#about"><i aria-hidden="true" class="fa fa-info-circle"></i><div class="leftNav-icon-label">About</div></a>
-    <a href="#faq"><i aria-hidden="true" class="fa fa-question-circle"></i><div class="leftNav-icon-label">FAQ</div></a>
-    <a href="#organizers"><i aria-hidden="true" class="fa fa-address-card-o"></i><div class="leftNav-icon-label">Organizers</div></a>
-    <a href="#sponsors"><i aria-hidden="true" class="fa fa-building-o"></i><div class="leftNav-icon-label">Sponsors</div></a>
+    <div id="scrollToTop">
+      <a href="#top" class="toTopLink">
+        <div class="circle"></div><i aria-hidden="true" class="fa fa-chevron-up"></i>
+      </a>
+    </div>
   </div>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <a class="navbar-brand" href="#"><i>SM</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#organizers">Organizers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sponsors">Sponsors</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <div id="mainContent">
 
     <section id="cover">
