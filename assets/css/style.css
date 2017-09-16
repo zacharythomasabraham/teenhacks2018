@@ -3,15 +3,16 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     font-family: 'Lato', Arial, sans-serif;
-    color: #333333;
-    background-color: #FD9845;
+    color: #7D7D7D;
+    background-color: #333333;
 }
 
 hr {
     height: .4vh;
-    color: #333333;
-    background: #333333;
+    color: #FD9845;
+    background: #FD9845;
     border: none;
 }
 
@@ -47,7 +48,7 @@ section {
 }
 
 #logo {
-    width: 30em;
+    width: 500px;
     pointer-events: none;
 }
 
@@ -60,16 +61,15 @@ section {
 }
 
 .img-headshot {
-    border-radius: 50%;
     height: 200px;
     width: 200px;
     pointer-events: none;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 0px 3px #333333;
+    box-shadow: 0px 0px 0px 4px #6A6A6A;
 }
 
-#organizers {
-    text-align: center;
+#allorgs {
+    margin-top: 25px;
 }
 
 .medias {
@@ -80,7 +80,7 @@ section {
 .social {
     font-size: 2em;
     margin: 5px;
-    color: #333333;
+    color: #7D7D7D;
     position: relative;
     transition: all 0.2s ease-in;
 }
@@ -93,11 +93,22 @@ section {
     color: white;
 }
 
+#directors,
+#team1,
+#team2 {
+    text-align: center;
+}
+
 /*========================*/
 
 /* ---- FONTS ---- */
 
 h1 {
+    font-weight: 600;
+    color: #FD9845;
+}
+
+h3 {
     font-weight: 600;
 }
 
@@ -151,7 +162,7 @@ a:active {
         display: none;
     }
     html {
-        font-size: 25px;
+        font-size: 19px;
     }
 }
 
@@ -195,7 +206,7 @@ a:active {
 }
 
 .leftNav i {
-    color: #BA5137;
+    color: #7D7D7D;
 }
 
 .leftNav a {
@@ -212,7 +223,7 @@ a:active {
 }
 
 .leftNav a:hover .leftNav-icon-label {
-    color: #333333;
+    color: #7D7D7D;
 }
 
 .leftNav-icon-label {
@@ -252,7 +263,7 @@ a:active {
 }
 
 .toTopLink {
-    color: #BA5137;
+    color: #7D7D7D;
     text-align: left;
     display: block;
     cursor: pointer;
