@@ -53,6 +53,10 @@ section {
     pointer-events: none;
 }
 
+#subscribeContent {
+    text-align: center;
+}
+
 .block {
     margin-bottom: 10px;
 }
