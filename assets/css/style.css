@@ -32,7 +32,6 @@ section {
 
 #cover {
     text-align: center;
-    min-width: 650px;
     height: 80vh;
 }
 
@@ -40,6 +39,7 @@ section {
     left: 50%;
     transform: translate(-50%);
     position: relative;
+    white-space: nowrap;
 }
 
 #logoBox {
@@ -139,15 +139,27 @@ a:active {
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) {
+@media (max-width: 768px) {
     html {
         font-size: 19px;
+    }
+    #mc_embed_signup input.email {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #mc_embed_signup .clear {
+        display: block;
+        width: 100%
+    }
+    #mc_embed_signup .button {
+        width: 100%;
+        margin: 0;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {
+@media (max-width: 992px) {
     html {
         font-size: 25px;
     }
@@ -155,7 +167,20 @@ a:active {
     #mainContent {
         width: 92.5%;
     }
+    #mc_embed_signup input.email {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #mc_embed_signup .clear {
+        display: block;
+        width: 100%
+    }
+    #mc_embed_signup .button {
+        width: 100%;
+        margin: 0;
+    }
 }
+
 
 /* Large devices (desktops, 992px and up) */
 
@@ -239,3 +264,9 @@ a:active {
 }
 
 /*========================*/
+
+/* ---- subscribe form ---- */
+
+#mc_embed_signup input.email {
+    background-color: #F1F1F1;
+}
