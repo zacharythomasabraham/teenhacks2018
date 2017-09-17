@@ -181,9 +181,6 @@ a:active {
     }
 }
 
-
-/* Large devices (desktops, 992px and up) */
-
 @media (min-width: 992px) {
     html {
         font-size: 18px;
@@ -193,9 +190,16 @@ a:active {
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* fix headshot resizing */
 
-@media (min-width: 1200px) {}
+@media (max-width: 1200px) {
+    .img-headshot {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 17.5px;
+    }
+}
+
 
 /*========================*/
 
