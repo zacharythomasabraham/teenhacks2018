@@ -21,6 +21,7 @@ section {
 }
 
 #mainContent {
+    top: 20vh;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
