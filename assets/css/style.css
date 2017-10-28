@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    height: .4vh;
+    height: .2rem;
     color: #FD9845;
     background: #FD9845;
     border: none;
@@ -21,10 +21,10 @@ section {
 }
 
 #mainContent {
-    top: 20vh;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    min-width: 630px;
 }
 
 
@@ -42,14 +42,12 @@ section {
     white-space: nowrap;
 }
 
-#logoBox {
-    width: 100%;
-    position: relative;
-    margin-bottom: 2em;
-}
 
 #logo {
+    left: 50%;
+    transform: translate(-50%);
     width: 500px;
+    position: relative;
     pointer-events: none;
 }
 
@@ -118,7 +116,7 @@ h3 {
 }
 
 #cover h1 {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 #faq p {
@@ -178,6 +176,9 @@ a:active {
     #mc_embed_signup .button {
         width: 100%;
         margin: 0;
+    }
+    #cover h1 {
+        font-size: 3rem;
     }
 }
 
