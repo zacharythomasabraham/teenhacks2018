@@ -21,7 +21,6 @@ section {
 }
 
 #mainContent {
-    top: 10vh;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -33,7 +32,6 @@ section {
 
 #cover {
     text-align: center;
-    height: 80vh;
 }
 
 #cover h1 {
@@ -202,6 +200,20 @@ a:active {
     }
 }
 
+/* Portrait */
+
+@media screen and (orientation:portrait) {
+    #mainContent {
+        top: 20vh;
+    }
+    #cover {
+        height: 100vh;
+    }
+}
+
+/* Landscape */
+
+@media screen and (orientation:landscape) {}
 
 /*========================*/
 
