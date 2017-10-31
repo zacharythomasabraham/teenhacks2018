@@ -41,6 +41,9 @@ section {
     white-space: nowrap;
 }
 
+#date {
+    margin-top: -50px;
+}
 
 #logo {
     left: 50%;
