@@ -207,7 +207,7 @@ a:active {
 
 @media screen and (orientation:portrait) {
     #mainContent {
-        top: 20vh;
+        top: 15vh;
     }
     #cover {
         height: 100vh;
