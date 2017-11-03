@@ -22,10 +22,26 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 50) {
-        $('#scrollToTop:hidden').fadeIn();
+    var max;
+    var mq = window.matchMedia("(max-width: 992px)");
+    if (mq.matches) {
+        max = 100;
     }
     else {
-        $('#scrollToTop').fadeOut();
+        max = 75;
     }
+    if ($(this).scrollTop() > 50) {
+        $('#scrollToTop:hidden').fadeIn();
+        if ($(this).scrollTop() > max) {
+            $('#mlh-trust-badge').fadeIn();
+        }
+    }
+    else if ($(this).scrollTop() < max) {
+        $('#mlh-trust-badge').fadeOut();
+        if ($(this).scrollTop() < 50) {
+            $('#scrollToTop').fadeOut();
+        }
+    }
+
+
 });
