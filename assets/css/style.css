@@ -27,6 +27,13 @@ section {
     min-width: 630px;
 }
 
+.sponsorLogo {
+    pointer-events: none;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    width: 14rem;
+}
 
 /* ---- page content ---- */
 
@@ -131,6 +138,10 @@ a:visited,
 a:link,
 a:active {
     text-decoration: none;
+}
+
+.link {
+    color: #FD9845 !important;
 }
 
 /*========================*/
