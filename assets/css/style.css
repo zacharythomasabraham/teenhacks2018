@@ -28,7 +28,6 @@ section {
 }
 
 .sponsorLogo {
-    pointer-events: none;
     left: 50%;
     transform: translate(-50%);
     position: relative;
@@ -131,13 +130,6 @@ h3 {
 #faq p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
-}
-
-a:hover,
-a:visited,
-a:link,
-a:active {
-    text-decoration: none;
 }
 
 .link {
