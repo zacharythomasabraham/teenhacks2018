@@ -31,7 +31,8 @@ section {
     left: 50%;
     transform: translate(-50%);
     position: relative;
-    width: 14rem;
+    width: 10rem;
+    margin-bottom: 25px;
 }
 
 /* ---- page content ---- */
