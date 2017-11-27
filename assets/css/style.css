@@ -67,7 +67,8 @@ section {
     margin-bottom: 10px;
 }
 
-#sponsors h2 {
+#sponsors h2,
+#register h2 {
     text-align: center;
 }
 
