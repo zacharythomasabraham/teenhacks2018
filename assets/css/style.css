@@ -32,7 +32,7 @@ section {
     transform: translate(-50%);
     position: relative;
     width: 10rem;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
 }
 
 /* ---- page content ---- */
@@ -136,10 +136,6 @@ h3 {
 
 .link {
     color: #FD9845 !important;
-}
-
-.prospectus {
-    margin-top: 50px;
 }
 
 
