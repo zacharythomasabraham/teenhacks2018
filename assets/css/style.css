@@ -1,5 +1,19 @@
+:root {
+    font-size: calc(15px + .3vw);
+}
+
+::selection {
+    text-shadow: #D07D39 0 0 9.9px;
+    color: #FDAA66;
+}
+
+::-moz-selection {
+    text-shadow: #D07D39 0 0 9.9px;
+    color: #FDAA66;
+}
+
 html {
-    font-size: 22.5px;
+    margin: 0;
 }
 
 body {
@@ -18,9 +32,14 @@ hr {
 section {
     display: block;
     margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #mainContent {
+    width: 100%;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -32,9 +51,10 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
-    width: 11rem;
+    width: calc(11rem - 1vw);
     margin-bottom: 3rem;
 }
+
 
 .prospectus {
     margin-top: 25px;
@@ -60,13 +80,28 @@ section {
 #logo {
     left: 50%;
     transform: translate(-50%);
-    width: 500px;
+    width: calc(500px - 2vw);
     position: relative;
     pointer-events: none;
 }
 
 #subscribeContent {
     text-align: center;
+}
+
+#mc_embed_signup input.email {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#mc_embed_signup .clear {
+    display: block;
+    width: 100%
+}
+
+#mc_embed_signup .button {
+    width: 100%;
+    margin: 0;
 }
 
 .block {
@@ -79,8 +114,10 @@ section {
 }
 
 .img-headshot {
-    height: 200px;
-    width: 200px;
+    max-height: 250px;
+    height: auto;
+    max-width: 100%;
+    width: 250px;
     pointer-events: none;
     margin-bottom: 10px;
     box-shadow: 0px 0px 0px 4px #6A6A6A;
@@ -88,16 +125,16 @@ section {
 
 #allorgs {
     margin-top: 25px;
+    text-align: center;
 }
 
 .medias {
-    margin-top: -20px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .social {
-    font-size: 2em;
-    margin: 5px;
+    font-size: calc(2em - .5vw);
+    margin-right: 5px;
     color: #8F8F8F;
     position: relative;
     transition: all 0.2s ease-in;
@@ -111,11 +148,6 @@ section {
     color: white;
 }
 
-#directors,
-#team1,
-#team2 {
-    text-align: center;
-}
 
 /*========================*/
 
@@ -131,7 +163,8 @@ h3 {
 }
 
 #cover h1 {
-    font-size: 4rem;
+    font-size: 4em;
+    ;
 }
 
 #faq p {
@@ -148,71 +181,49 @@ h3 {
 
 /* ---- MEDIA QUERIES ---- */
 
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
 /* Small devices (landscape phones, 576px and up) */
 
-@media (max-width: 768px) {
-    html {
-        font-size: 19px;
-    }
-    #mc_embed_signup input.email {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-    #mc_embed_signup .clear {
-        display: block;
-        width: 100%
-    }
-    #mc_embed_signup .button {
-        width: 100%;
-        margin: 0;
+@media (min-width: 576px) {
+    #allorgs {
+        text-align: left;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (max-width: 992px) {
-    html {
-        font-size: 25px;
-    }
-
-    #mainContent {
-        width: 92.5%;
-    }
-    #mc_embed_signup input.email {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-    #mc_embed_signup .clear {
-        display: block;
-        width: 100%
-    }
-    #mc_embed_signup .button {
-        width: 100%;
-        margin: 0;
-    }
+@media (min-width: 768px) {
     #cover h1 {
         font-size: 3rem;
     }
+    section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
+/* Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
-    html {
-        font-size: 18px;
-    }
     #mainContent {
         width: 87.5%;
     }
-}
-
-/* fix headshot resizing */
-
-@media (max-width: 1200px) {
-    .img-headshot {
-        height: 350px;
-        width: 350px;
-        margin-bottom: 17.5px;
+    section {
+        display: block;
+        margin: 100px;
     }
+
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
 
 /* Portrait */
 
@@ -312,5 +323,5 @@ h3 {
     width: 100%;
     height: 60px;
     text-align: center;
-
+    padding-top: 15px;
 }
