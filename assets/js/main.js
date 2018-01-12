@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    window.sr = ScrollReveal({ reset: true, vFactor: 0.0 });
+    window.sr = ScrollReveal({ reset: true, vFactor: 0.0, mobile: false });
     sr.reveal('hr');
     sr.reveal('.row');
 

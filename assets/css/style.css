@@ -1,5 +1,5 @@
 :root {
-    font-size: calc(15px + .3vw);
+    font-size: calc(17.5px + .3vw);
 }
 
 ::selection {
@@ -210,6 +210,9 @@ h3 {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    :root {
+        font-size: calc(15px + .3vw);
+    }
     #mainContent {
         width: 87.5%;
     }
