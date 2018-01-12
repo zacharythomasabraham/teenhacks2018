@@ -232,10 +232,16 @@ h3 {
 
 @media screen and (orientation:portrait) {
     #mainContent {
-        top: 15vh;
+        top: 20vh;
     }
     #cover {
         height: 80vh;
+    }
+}
+
+@media screen and (orientation:portrait) and (min-width: 992px) {
+    #mainContent {
+        top: 15vh;
     }
 }
 
