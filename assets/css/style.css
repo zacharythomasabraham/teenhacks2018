@@ -67,11 +67,9 @@ section {
 
 }
 
-#cover h1 {}
-
-#cover h3 {}
-
 #date {
+    color: #FD9845;
+
     text-align: center;
     margin-top: -50px;
 }
