@@ -1,8 +1,4 @@
 $(document).ready(function() {
-    window.sr = ScrollReveal({ reset: true, vFactor: 0.0, mobile: false });
-    sr.reveal('hr');
-    sr.reveal('.row');
-
     particlesJS.load('particles-js', '/assets/json/particles.json', function() {
         console.log('particles.js loaded');
     });

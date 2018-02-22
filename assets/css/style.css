@@ -64,16 +64,15 @@ section {
 
 #cover {
     text-align: center;
+
 }
 
-#cover h1 {
-    left: 50%;
-    transform: translate(-50%);
-    position: relative;
-    white-space: nowrap;
-}
+#cover h1 {}
+
+#cover h3 {}
 
 #date {
+    text-align: center;
     margin-top: -50px;
 }
 
@@ -134,10 +133,6 @@ section {
 h1 {
     font-weight: 600;
     color: #FD9845;
-}
-
-h3 {
-    font-weight: 600;
 }
 
 #cover h1 {
