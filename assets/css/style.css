@@ -55,6 +55,9 @@ section {
     margin-bottom: 3rem;
 }
 
+.big {
+    width: calc(20rem - 1vw);
+}
 
 .prospectus {
     margin-top: 25px;
