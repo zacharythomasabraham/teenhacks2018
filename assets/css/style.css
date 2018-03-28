@@ -1,5 +1,5 @@
 :root {
-    font-size: calc(17.5px + .3vw);
+    font-size: 17.5px;
 }
 
 ::selection {
@@ -18,13 +18,13 @@ html {
 
 body {
     font-family: 'Lato', Arial, sans-serif;
-    color: #8F8F8F;
+    color: #a5a5a5;
     background-color: #333333;
 }
 
 hr {
     height: .2rem;
-    color: #FD9845;
+    color: #a5a5a5;
     background: #FD9845;
     border: none;
 }
@@ -44,23 +44,7 @@ section {
     left: 50%;
     transform: translate(-50%);
     min-width: 630px;
-}
-
-.sponsorLogo {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: relative;
-    width: calc(11rem - 1vw);
-    margin-bottom: 3rem;
-}
-
-.big {
-    width: calc(20rem - 1vw);
-}
-
-.prospectus {
-    margin-top: 25px;
+    top: 10vh;
 }
 
 /* ---- page content ---- */
@@ -70,16 +54,26 @@ section {
 
 }
 
-#date {
-    color: #FD9845;
+#title {
+    font-size: 4rem;
+}
+
+#info {
+    width: 100%;
     text-align: center;
-    margin-top: -50px;
+    width: 410px;
+}
+
+.button {
+    display: flex;
+    background-color: white;
+    padding: .4rem;
+    margin: 0.5rem;
+    max-width: 150px;
 }
 
 #logo {
-    left: 50%;
-    transform: translate(-50%);
-    width: calc(500px - 2vw);
+    height: 340px;
     position: relative;
     pointer-events: none;
 }
@@ -104,7 +98,7 @@ section {
     width: 250px;
     pointer-events: none;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 0px 4px #6A6A6A;
+    box-shadow: 0px 0px 0px 3px #8F8F8F;
 }
 
 #allorgs {
@@ -119,12 +113,27 @@ section {
 .social {
     font-size: calc(2em - .5vw);
     margin-right: 5px;
-    color: #8F8F8F;
+    color: inherit;
     position: relative;
     transition: all 0.2s ease-in;
 }
 
+.sponsorLogo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    width: calc(11rem - 1vw);
+    margin-bottom: 3rem;
+}
 
+.big {
+    width: calc(20rem - 1vw);
+}
+
+.prospectus {
+    margin-top: 25px;
+}
 
 /*========================*/
 
@@ -133,11 +142,6 @@ section {
 h1 {
     font-weight: 600;
     color: #FD9845;
-}
-
-#cover h1 {
-    font-size: 4em;
-    ;
 }
 
 #faq p {
@@ -186,7 +190,7 @@ h1 {
 }
 
 .toTopLink {
-    color: #8F8F8F;
+    color: inherit;
     text-align: right;
     display: block;
     cursor: pointer;
@@ -274,9 +278,6 @@ h1 {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    #cover h1 {
-        font-size: 2.7rem;
-    }
     section {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -289,11 +290,18 @@ h1 {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    :root {
-        font-size: calc(15px + .3vw);
-    }
     #mainContent {
         width: 87.5%;
+    }
+    #logo {
+        float: left;
+    }
+    #info {
+        float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
     }
     section {
         display: block;
