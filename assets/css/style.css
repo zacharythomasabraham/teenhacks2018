@@ -64,6 +64,12 @@ section {
     width: 410px;
 }
 
+#logo {
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 15px;
+}
+
 .button {
     display: flex;
     background-color: white;
