@@ -44,7 +44,7 @@ section {
     left: 50%;
     transform: translate(-50%);
     min-width: 630px;
-    top: 10vh;
+    top: 15vh;
 }
 
 /* ---- page content ---- */
@@ -325,7 +325,7 @@ h1 {
 
 @media screen and (orientation:portrait) {
     #mainContent {
-        top: 15vh;
+        top: 20vh;
     }
     #cover {
         height: 80vh;
@@ -334,7 +334,7 @@ h1 {
 
 @media screen and (orientation:portrait) and (min-width: 992px) {
     #mainContent {
-        top: 10vh;
+        top: 15vh;
     }
 }
 
