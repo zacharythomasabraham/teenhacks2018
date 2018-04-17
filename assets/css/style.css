@@ -78,6 +78,25 @@ section {
     max-width: 150px;
 }
 
+.tables h3 {
+    margin-bottom: 20px;
+}
+
+.tables {
+    text-align: center;
+}
+
+.table {
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+th {
+    text-align: center;
+}
+
 #logo {
     height: 340px;
     position: relative;
