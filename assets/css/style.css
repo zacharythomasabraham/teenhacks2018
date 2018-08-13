@@ -1,20 +1,77 @@
 
-/* Page content */
-.content {
-  padding: 16px;
+.clear {
+    clear: both;
+}
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
+/* Custom styles */
+
+.corner-ribbon.sticky{
   position: fixed;
-  top: 0;
-  width: 100%
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 102px;
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 25px;
+  right: -50px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 25px;
+  left: -50px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -50px;
+  bottom: 25px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white{background: #f0f0f0; color: #555;}
+.corner-ribbon.black{background: #333;}
+.corner-ribbon.grey{background: #999;}
+.corner-ribbon.blue{background: #39d;}
+.corner-ribbon.green{background: #2c7;}
+.corner-ribbon.turquoise{background: #1b9;}
+.corner-ribbon.purple{background: #95b;}
+.corner-ribbon.red{background: #e43;}
+.corner-ribbon.orange{background: #e82;}
+.corner-ribbon.yellow{background: #ec0;}
 .btn-default.active,.btn-default:active,.btn-primary.active,.btn-primary:active,.open>.dropdown-toggle.btn-default,.open>.dropdown-toggle.btn-primary{
 	background-image:none
 }
@@ -65,18 +122,30 @@
 }
 
 .btn-default:focus,.btn-default:hover {
-    border: 1px solid green;
+    border: 1px solid yellow;
     outline: 0;
     color: #fff;
-    background-color: green;
+    background-color: yellow;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.nav-item .navbar-light{
     color: rgba(255,255,0,0,3);
 }
 
-.navbar-dark{
-    color: rgba(255,255,255);
+.navbar-nav .nav-link {
+    color: rgba(255,255,255, 0.3);
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: rgba(255,255,0,0,3) !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: rgba(255,255,0,0,3) !important;
+}
+
+ul.nav li.active a {
+    color: rgba(255,255,0,0,3) !important;
 }
 
 :root {
@@ -192,6 +261,8 @@ th {
     margin-bottom: 10px;
 }
 
+#sponsors {
+	background-color: #0099ff;}
 #sponsors h2,
 #register h2 {
     text-align: center;
@@ -206,6 +277,15 @@ th {
     margin-bottom: 10px;
     box-shadow: 0px 0px 0px 3px #8F8F8F;
 }
+
+#sponsors img {
+    max-height: calc(40px + 6 * var(--vw));
+}
+
+#partners img {
+    max-height: calc(40px + 6 * var(--vw));
+}
+
 
 #allorgs {
     margin-top: 25px;
@@ -271,7 +351,7 @@ h1 {
 }
 
 .bg-custom {
-    background-color: #232741;
+    background-color: #0099ff;
     position: absolute;
     width: 100%;
     z-index: 9998;
