@@ -1,118 +1,247 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122104440-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+
   gtag('config', 'UA-122104440-1');
 </script>
-
-
   <meta charset="utf-8">
-
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat|Open+Sans|PT+Mono" rel="stylesheet">
-  <script src="https://use.fontawesome.com/a53f2d041c.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="assets/js/particles.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
-  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-
-  <link href="assets/css/style.css" rel="stylesheet">
-  <script src="assets/js/main.js"></script>
   <title>TeenHacks</title>
-   <meta name="description" content="TeenHacks Hackathon: September 8 2018">
-   <meta name="keywords" content="Hackathon,Code,Coding,Programming">
-   <meta name="author" content="Teen
-                                Hacks">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat|Open+Sans|PT+Mono" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <script src="assets/js/particles.min.js"></script>
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
-<body>
-  <div id="top"></div>
-  <div id="particles-js"></div>
+<body data-spy="scroll" data-target="#navbar-example">
 
-  <div id="toTopNav">
-    <div id="scrollToTop">
-      <a href="#top" class="toTopLink">
-        <div class="circle"></div><i aria-hidden="true" class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-  </div>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-    <a class="navbar-brand" href="#"><i>TeenHacks</i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#register">Register</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#faq">FAQ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#schedule">Schedule</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#organizers">Organizers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#sponsors">Sponsors</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div id="mainContent">
-    <!--<img src="assets/img/teenhackslogo.svg" width="1400px" id="logo"></img>-->
-    <section id="cover">
-      <div class="container-fluid">
+  <div id="preloader"></div>
+  
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
         <div class="row">
-          <img src="assets/img/teenhackslogo.svg" id="logo"></img>
-        </div>
-        <div id="date">
-          <h1>CIVIC HACKATHON</h1>
-          <h2>September - 8th, 2018</h2>
-          <h3>NetScout Systems Inc.</h3>
-          <p>178 E Tasman Dr, San Jose, CA 95134</p>
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <span class="corner-ribbon top-left sticky red shadow">High School</span><h1><i>TeenHacks</i></h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!--<img src="assets/img/teenhackslogo-best.png" id="logo"></img>-->
+								</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#register">Register</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#faq">FAQ</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#schedule">Schedule</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#team">Organizers</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#sponsors">Sponsors</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
         </div>
       </div>
-    </section>
-  <section id="prizes">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>PRIZES</h1>
-          </div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-12">
-            <h3>WILL BE UPDATED SHORTLY!</h3>
-          </div>
-        </div>
     </div>
-  </section>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
 
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div id="particles-js" class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="assets/img/teenhacks-shooting-netscouts-bg.png" alt="" title="#slider-direction-1" />
+        <img src="assets/img/teenhacks-shooting-netscouts-bg.png" alt="" title="#slider-direction-2" />
+        <img src="assets/img/teenhacks-shooting-netscouts-bg.png" alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="row layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                    
+                    <div id="date">
+                      
+                      <h1>TEEN HACKS</h1>
+                      <h2>CIVIC HACKATHON</h2>
+                      <h2>September 8, 2018</h2>
+                      <h3>NetScout Systems Inc.</h3>
+                      <h4>178 E Tasman Dr, San Jose, CA 95134</h4>
+                    </div>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Teens in Technology</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#register">Register</a>
+                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                    <div id="date">
+                     
+                      <h1>TEEN HACKS</h1>
+                      <h2>CIVIC HACKATHON</h2>
+                      <h2>September 8, 2018</h2>
+                      <h3>NetScout Systems Inc.</h3>
+                      <h4>178 E Tasman Dr, San Jose, CA 95134</h4>
+                    </div>
+                  <h2 class="title1">Hackathon for school students ages 12-18 </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Hack to find ways to make our community and world better</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#services">Register</a>
+                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                    <div id="date">
+                     
+                      <h1>TEEN HACKS</h1>
+                      <h2>CIVIC HACKATHON</h2>
+                      <h2>September 8, 2018</h2>
+                      <h3>NetScout Systems Inc.</h3>
+                      <h4>178 E Tasman Dr, San Jose, CA 95134</h4>
+                    </div>
+                  <h2 class="title1">Hack for Good and help raise funds for education </h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Network and learn through workshops</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#register">register</a>
+                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
             <h1>ABOUT</h1>
           </div>
         </div>
+      </div>
+
+
+   
         <hr>
         <div class="row text-center">
           <div class="col-md-4">
@@ -152,138 +281,405 @@
               
           </div>
         </div>
-        
-      </div>
-    </section>
 
-    <section id="register">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
+    
+      
+    </div>
+  </div>
+  <!-- End About area -->
+
+  <!-- Start Service area -->
+  <div id="register" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
             <h1>REGISTER</h1>
           </div>
         </div>
-        <hr>
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-10">
-           <!-- <h2>Announcement! </h2>-->
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-lg-3">
-            <h2><a href="http://bit.ly/attendees_th18" class="link" target="_blank">Attendee</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3">
-            <h2><a href="http://bit.ly/mentor_th18" class="link" target="_blank">Mentor</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3">
-            <h2><a href="http://bit.ly/volunteer_th18" class="link" target="_blank">Volunteer</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-lg-3">
-            <h2><a href="http://bit.ly/judge_th18" class="link" target="_blank">Judge</a></h2>
-          </div>
-        </div>
-
       </div>
-    </section>
+      <hr>
+      <div class="row text-center">
+        <div class="services-contents">
+          <!-- Start Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a  href="http://bit.ly/attendees_th18">
+											<i class="fa fa-code"></i>
+                      <h4>Teen Hacker</h4>
+										</a>
+                  
+                  <p>
+                    Attendees who plan to form teams and hack.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a  href="http://bit.ly/mentor_th18">
+											<i class="fa fa-code"></i>
+                      <h4>Mentor</h4>
+										</a>
+                  
+                  <p>
+                    Attendees who are older than 18 who can help guide projects.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a href="http://bit.ly/volunteer_th18">
+											<i class="fa fa-code"></i>
+                      <h4>Volunteer</h4>
+										</a>
+                  
+                  <p>
+                    Attendees who would like to facilitate hackathon as part of TeenHacks.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a  href="http://bit.ly/judges_th18">
+											<i class="fa fa-code"></i>
+                      <h4>Judge </h4>
+										</a>
+                  
+                  <p>
+                    Attendees who are older than 18 with no affiliation to attendees and who have some experience working in technology or judging projects. Technology leaders are preferred.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a  href="http://bit.ly/speaker_th18">
+											<i class="fa fa-code"></i>
+                      <h4>Speaker</h4>
+										</a>
+                  
+                  <p>
+                    Attendees from sponsor companies or technology leaders who can inspire teen hackers on civic innovation or latest treands in technology.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+       
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Service area -->
 
-    <section id="faq">
+  <!-- our-skill-area start -->
+  <div class="our-skill-area fix hidden-sm">
+    <div class="test-overly"></div>
+    <div class="skill-bg area-padding-2">
       <div class="container">
+        <!-- section-heading end -->
         <div class="row">
-          <div class="col-12">
+          <div class="skill-text">
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="95" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Creativity/Innovation</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="85" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Technical Difficulty</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Impact/Usefulness</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="65" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Presentations</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our-skill-area end -->
+
+  <!-- Faq area start -->
+  <div id="faq" class="faq-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
             <h1>FAQ</h1>
           </div>
         </div>
-        <hr>
-        <div class="row">
-          <div class="col-12 block">
-            <h3>What is a hackathon?</h3>
-            <p>A hackathon is a 12-hour programming marathon where your ideas come to life. Over the course of the weekend, students from all backgrounds and all skill levels collaborate in teams of up to four to 
-              something awesome. All participants
-              must abide by the <a class="link" href="assets/pdf/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a>.</p>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="faq-details">
+            <div class="panel-group" id="accordion">
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
+                                                <span class="acc-icons"></span>What is a hackathon?
+											</a>
+										</h4>
+                </div>
+                <div id="check1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p>A hackathon is a 12-hour programming marathon where your ideas come to life. Over the course of the weekend, students from all backgrounds and all skill levels collaborate in teams of up to four to 
+              something awesome. All participants must abide by the <a class="link" href="assets/pdf/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a>.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check2">
+                                                <span class="acc-icons"></span> What if I don't know how to code?
+											</a>
+										</h4>
+                </div>
+                <div id="check2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>No worries! This is the perfect time to learn how to code and all students, regardless of skill level and experience, are welcome. There will be plenty of mentors on hand glad to answer any and all questions and workshops specifically
+              designed for those with no prior experience. Stay tuned for information about workshops!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check3">
+                                                <span class="acc-icons"></span>Do I have to be in high school?
+											</a>
+										</h4>
+                </div>
+                <div id="check3" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <p>We accept students 12-18. We expect some familiarity with coding in grades 7th and 8th ie if you plan to code. College students are welcome to help out as mentors!</p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>What if I don't have a team or an idea?
+											</a>
+										</h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>No worries! It is not uncommon for people to come into the hackathon without an already-formed group, but we'll make sure you're matched with the right people! We will have a team formation and ideation session the first night so everyone
+              can find the perfect team and come up with awesome ideas, so don't you worry first-time hackers! </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>How big can teams be?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>Teams can be up to four people. While you may work as an individual, we highly encourage collaborating with others. If you don't have a team or need help finding one, make sure not to miss our team formation and ideation session on Saturday. </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>What should I bring?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Just bring your id,laptop,charger,ideas and we will provide you with the food, WiFi, workspace, and swag! </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>What is the schedule like?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> The event is from 9am to 9pm on September 8,2018. The day-of schedule is posted below! </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>What if I have another question?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Email us at <a class="link" href="mailto:teentechhacks@gmail.com">TeenHacks</a> if you have any additional questions. We are always happy to help! </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>What if I want to sponsor?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p> Email us at <a class="link" href="mailto:teentechhacks@gmail.com">TeenHacks</a>, we always are looking for sponsors! </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-
-          <div class="col-lg-6 block">
-
-            <h3>What if I don't know how to code?</h3>
-            <p>No worries! s is the perfect time to learn how to code and all students, regardless of skill level and experience, are welcome. There will be plenty of mentors on hand glad to answer any and all questions and workshops specifically
-              designed for those with no prior experience. Stay tuned for more information about workshops!</p>
-
+        <div id="faq1" class="col-md-6 col-sm-6 col-xs-12">
+          <div class="tab-menu">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="active">
+                <a href="#p-view-1" role="tab" data-toggle="tab">Rules</a>
+              </li>
+              <li>
+                <a href="#p-view-2" role="tab" data-toggle="tab">Code Of Conduct</a>
+              </li>
+              <li>
+                <a href="#p-view-3" role="tab" data-toggle="tab">Prizes</a>
+              </li>
+            </ul>
           </div>
+          <div class="tab-content">
+            <div class="tab-pane active" id="p-view-1">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>Rules</h4>
+                  <p style="color:white">
+                    Hackathon rules can be found <a href="assets/pdf/rules.pdf">here</a>.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p-view-2">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>Code of Conduct</h4>
+                  <p style="color:white">
+                    Hackathon Code of conduct can be found <a href="assets/pdf/code-of-conduct.pdf">here</a>.
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p-view-3">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>Prizes</h4>
+                  <p >
+                    <ul style="color:white">
+                      <li>TeenHacks Netscout Best Civic Project (5 teams)</li>
+                      <l>TeenHacks Best Use of Unity at the hackathon (1 team)</l>
 
-          <div class="col-lg-6 block">
-
-            <h3>Do I have to be in high school?</h3>
-            <p>Yes, current high school students will be able to attend. We accept students 12-18 with some familiarity with coding in grades 7th and 8th. College students are welcome to help out as mentors!</p>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-6 block">
-
-            <h3>What if I don't have a team or an idea?</h3>
-            <p>No worries! It is not uncommon for people to come into the hackathon without an already-formed group, but we'll make sure you're matched with the right people! We will have a team formation and ideation session the first night so everyone
-              can find the perfect team and come up with awesome ideas, so don't you worry first-time hackers!</p>
-          </div>
-          <div class="col-lg-6 block">
-
-            <h3>How big can teams be?</h3>
-            <p>Teams can be up to four people. While you may work as an individual, we highly encourage collaborating with others. If you don't have a team or need help finding one, make sure not to miss our team formation and ideation session on Saturday.</p>
-
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-6 block">
-
-            <h3>What should I bring?</h3>
-            <p>Attendees should bring a valid student ID or some other form of identification, as well as a signed and completed waiver. Bring laptops and chargers, along with any other technology that you may want to use!</p>
-          </div>
-
-          <div class="col-lg-6 block">
-
-            <h3>How much does it cost to attend?</h3>
-            <p>Nothing! Just bring your beautiful self and ideas and we will provide you with the food, WiFi, workspace, and swag!</p>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-6 block">
-
-            <h3>How can I apply?</h3>
-            <p><a href="#register" class="link">click here</a> to apply!</p>
-       
-          </div>
-
-          <div class="col-lg-6 block">
-
-            <h3>What is the schedule like?</h3>
-            <p>The event is from 9am to 9pm on September 8,2018. The day-of schedule is posted below!</p>
-          </div>
-        </div>
-        <div class="row">
-
-          <div class="col-lg-6 block">
-
-            <h3>What if I have another question?</h3>
-            <p>Email us at <a class="link" href="mailto:teentechhacks@gmail.com">TeenHacks</a> if you have any additional questions. We are always happy to help!</p>
-          </div>
-
-          <div class="col-lg-6 block">
-
-            <h3>What if I want to sponsor?</h3>
-            <p>Email us at <a class="link" href="mailto:teentechhacks@gmail.com">TeenHacks</a>, we always are looking!</p>
-
+                      <li>TeenHacks Internet Donkey Jungle in the humble Best Pitch award (1 team)</li>
+                      <li>TeenHacks Best Project on .tech domain (1 team)</li>                   
+                      <ul>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <!-- end Row -->
+    </div>
+  </div>
+  <!-- End Faq Area -->
 
-    <section id="schedule">
+  <section id="schedule">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -346,197 +742,291 @@
       </div>
     </section>
 
-    <section id="organizers">
+  <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h1>TeenHacks Team</h1>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="assets/img/headshots/zachary.jpg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Zachary Abraham</h4>
+                <p>Founder & Executive Director</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="assets/img/headshots/zion.png" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Zion Abraham</h4>
+                <p>Operations Director</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="assets/img/headshots/zayne.png" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-facebook"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-twitter"></i>
+												</a>
+                    </li>
+                    <li>
+                      <a href="#">
+													<i class="fa fa-instagram"></i>
+												</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Zayne Abraham</h4>
+                <p>Outreach Director</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+            <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                    <img src="assets/img/headshots/adam.jpeg" alt="">
+                  </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Adam Oushreovich</h4>
+                <p>Outreach Team</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="team-top">
+      
+          <!-- End column -->
+         
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                    <img src="assets/img/headshots/james.jpg" alt="">
+                  </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>James Moy</h4>
+                <p>Operations team</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+                    <img src="assets/img/headshots/pranav.jpg" alt="">
+                  </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>Pranav Zalpuri</h4>
+                <p>Sponsorship Team</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team Area -->
+  <section id="speakers-judges">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1>ORGANIZERS</h1>
+            <h1>Speakers & Judges</h1>
           </div>
         </div>
         <hr>
         <div id="allorgs">
           <div id="directors">
             <div class="row">
-
+              
               <div class="col-sm-12 col-lg-4">
                 <figure>
-                  <img class="img-headshot" src="assets/img/headshots/27867576_946139768884615_3169872072146449170_n.jpg" />
-                  <h3>Zachary Abraham</h3>
-                  <figcaption>Founder & Executive Director TeenHacks</figcaption>
-                  <div class="medias">
-                    <a href="mailto:zachary.thomas.abraham@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/zacharythomasabraham" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/zacharythomasabraham" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
+                  <img class="img-headshot" src="assets/img/headshots/speakersjudges/namrata.jpeg" />
+                  <h3>Namrata Mujumdar</h3>
+                  <figcaption>Founder & CEO, Amp Politics</figcaption>
+                </figure>
+              </div>
+              
+              <div class="col-sm-12 col-lg-4">
+                <figure>
+                  <img class="img-headshot" src="assets/img/headshots/speakersjudges/michellesun.jpeg" />
+                  <h3>Michelle Sun</h3>
+                  <figcaption>Founder & CEO at First Code Academy</figcaption>
                 </figure>
               </div>
 
               <div class="col-sm-12 col-lg-4">
                 <figure>
-                  <img class="img-headshot" src="assets/img/headshots/zion.png" />
-                  <h3>Zion Abraham</h3>
-                  <figcaption>Operations Director</figcaption>
-                  <div class="medias">
-                    <a href="mailto:zion.george.abraham@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/ziongeorgeabraham/" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                  </div>
+                  <img class="img-headshot" src="assets/img/headshots/speakersjudges/naveen.jpeg" />
+                  <h3>Naveen Kulandaivelu</h3>
+                  <figcaption>CTO,Step.ai</figcaption>
                 </figure>
               </div>
 
               <div class="col-sm-12 col-lg-4">
                 <figure>
-                  <img class="img-headshot" src="assets/img/headshots/zayne.png" />
-                  <h3>Zayne Abraham</h3>
-                  <figcaption>Outreach Director</figcaption>
-                  <div class="medias">
-                    <a href="mailto:zayne.john.abraham@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/zaynejohnabraham/" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/zaynejohnabraham" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-
-
-            </div>
-                  <div class="row">
-
-              <div class="col-sm-12 col-lg-4">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/james.jpg" />
-                  <h3>James Moy</h3>
-                  <figcaption>Operations Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:teenhacks@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                  </div>
-                </figure>
-              </div>
-
-              <div class="col-sm-12 col-lg-4">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/6A582E06-0492-420B-8DE5-55221A3BF8EA.jpeg" />
-                  <h3>Adam Oushreovich</h3>
-                  <figcaption>Outreach Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:teenhacks@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                  </div>
-                </figure>
-              </div>
-
-              <div class="col-sm-12 col-lg-4">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/pranav.jpg" />
-                  <h3>Pranav Zalpuri</h3>
-                  <figcaption>Sponsorship Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:teenhacks@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                  </div>
-                </figure>
-              </div>
-
-
-            </div>
-          </div>
-
-          <!--<div id="team1">
-            <div class="row">
-              <div class="col-sm-6 col-lg-4">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/dimple.png" />
+                  <img class="img-headshot" src="assets/img/headshots/speakersjudges/dimple.png" />
                   <h3>Dimple Joseph</h3>
-                  <figcaption>InternetDonkey Sponsor & Mentor</figcaption>
-                  <div class="medias">
-                    <a href="mailto:zacdimple@yahoo.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/dimplejoseph" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/dimplejoseph" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
+                  <figcaption>Engineering Manager, PlayStation</figcaption>
                 </figure>
               </div>
-              <div class="col-sm-6 col-lg-4">
+
+              <div class="col-sm-12 col-lg-4">
                 <figure>
-                  <img class="img-headshot" src="assets/img/headshots/latha.jpg" />
-                  <h3>Latha Narayanan</h3>
-                  <figcaption>Shooting Stars Foundation Mentor</figcaption>
-                  <div class="medias">
-                    <a href="mailto:latha@gmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/latha" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/latha" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/16142655_10154100523670264_1927174420203795000_n.jpg" />
+                  <img class="img-headshot" src="assets/img/headshots/speakersjudges/manoj.jpg" />
                   <h3>Manoj Abraham</h3>
-                  <figcaption>InternetDonkey Outreach Mentor</figcaption>
-                  <div class="medias">
-                    <a href="mailto:mabraha@hotmail.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://linkedin.com/in/abrahammanoj" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/manoj.abraham.0" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
+                  <figcaption>CTO, InternetDonkey,Inc</figcaption>
                 </figure>
               </div>
+
+
             </div>
-          </div>-->
+           </div>
          
-          <!--
-          <div id="team2">
-            <div class="row">
-              <div class="col-sm-6 col-lg-3">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/bruce-min.jpg" />
-                  <h3>Bruce D.</h3>
-                  <figcaption>Sponsorship Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:bruce@smhacks.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/bruce-deng-934217143/" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/bruce.qdeng" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/anu-min.jpg" />
-                  <h3>Anu T.</h3>
-                  <figcaption>Operations Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:anu@smhacks.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/anuthiru" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/nitanu32" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/kelly-min.jpg" />
-                  <h3>Kelly M.</h3>
-                  <figcaption>Outreach Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:kelly@smhacks.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/kelly-ma-a07147142/" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/kelly.ma704" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-              <div class="col-sm-6 col-lg-3">
-                <figure>
-                  <img class="img-headshot" src="assets/img/headshots/emma-min.jpg" />
-                  <h3>Emma KF.</h3>
-                  <figcaption>Outreach Team</figcaption>
-                  <div class="medias">
-                    <a href="mailto:emma@smhacks.com" class="social"><i aria-hidden="true" class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/emma-kogler-franklyn-42a725150/" class="social" target="_blank"><i aria-hidden="true" class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100010187401866" class="social" target="_blank"><i aria-hidden="true" class="fa fa-facebook-square"></i></a>
-                  </div>
-                </figure>
-              </div>
-      
-            </div>
-          </div>-->
         </div>
       </div>
     </section>
   
-  <section id="sponsors">
+  <section id="parter-video">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -547,97 +1037,628 @@
         <hr>
         </div>
   </section>
+  <!-- Start reviews Area -->
+  <div class="reviews-area hidden-xs">
+    <div class="work-us">
+      <div class="work-left-text">
+        <a href="#">
+						<img src="assets/img/teenhacks2.png" alt="">
+					</a>
+      </div>
+      <div class="work-right-text text-center">
+        <h2>Want to sponsor or join us or have a question</h2>
+        <h5>We are a passionate group of Teens in Technology lead by Zachary Abraham</h5>
+        <a href="mailto:teentechhacks@gmail.com" class="ready-btn">Contact us</a>
+      </div>
+    </div>
+  </div>
+  <!-- End reviews Area -->
 
-    <section id="sponsors">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>SPONSORS</h1>
+  <!-- Start portfolio Area -->
+  <div id="sponsors" class="portfolio-area area-padding fix">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h1>Our Sponsors</h1>
           </div>
         </div>
-        <hr>
+      </div>
+      <hr>
         
         <div class = "row" style = "padding-bottom: 20px">
+           <div class = "col-lg-12" style="color:white">
+              Thank you to all of our sponsors! Without your help, TeenHacks wouldn't be possible.
+           </div>
+          <div class="clear"></div>
             <div class = "col-lg-12" style = "text-align: center !important">
-               <a href="assets/pdf/sponsorshippacket.pdf" class="btn btn-default btn-lg"><i class="fa fa-eye fa-fw"></i> <span class="network-name">Sponsorship Package</span></a>
+              <a href="assets/pdf/sponsorshippacket.pdf" class="btn btn-default btn-lg"><i class="fa fa-eye fa-fw"></i> <span class="network-name">INTERESTED IN SPONSORING? CLICK HERE!</span></a>
             </div>
        </div>
-        <div class="row">
-
-          <div class="col-xs-12 col-lg-6"><a href="https://www.netscout.com/" target="_blank"><img src="https://www.netscout.com/themes/custom/netscout/logo.svg" class="sponsorLogo big draper"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="https://www.wolfram.com/language/" target="_blank"><img src="assets/img/sponsors/wolfram.png" class="sponsorLogo wolfram"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="https://www.jetbrains.com/" target="_blank"><img src="assets/img/sponsors/jetbrains.png" class="sponsorLogo jetBrains"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="http://www.internetdonkey.com/" target="_blank"><img src="assets/img/sponsors/DonkeyLogoTIE.jpg" class="sponsorLogo"></img></a></div>
-         
-      </div>
-        <div class="row">
-          
-         
-          <div class="col-xs-12 col-lg-6"><a href="https://balsamiq.com/" target="_blank"><img src="assets/img/sponsors/balsamiq.png" class="sponsorLogo"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="https://aopsacademy.org/" target="_blank"><img src="assets/img/sponsors/Aopsacademy.png" class="sponsorLogo"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="https://www.interviewcake.com/" target="_blank"><img src="assets/img/sponsors/interviewcake.png" class="sponsorLogo"></img></a></div>
-          <div class="col-xs-12 col-lg-6"><a href="https://www.codemag.com/" target="_blank"><img src="assets/img/sponsors/codemag.png" class="sponsorLogo"></img></a></div>
-         
-        </div>
-      
-        
-        <div class="row">
-         
-          <div class="col-xs-12 col-lg-6"><a href="https://www.drinkhint.com/" target="_blank"><img src="assets/img/sponsors/hint.png" class="sponsorLogo"></img></a></div>
-         <div class="col-xs-12 col-lg-6"><a href="https://www.think-board.com/" target="_blank"><img src="assets/img/sponsors/thinkboard.png" class="sponsorLogo"></img></a></div>
-         <div class="col-xs-12 col-lg-6"><img src="assets/img/sponsors/am.png" class="sponsorLogo"></img></div>
-          
-            
-        </div>
-
-      </div>
-    </section>
-    <section id="partners">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>PARTNERS</h1>
+      <div class="row">
+        <!-- Start Portfolio -page -->
+        <div class="awesome-project-1 fix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu ">
+              <ul class="project-menu">
+                <li>
+                  <a href="#" class="active" data-filter="*">All</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".partner">Partner</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".diamond">Diamond</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".gold">Gold</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".other">Other</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".volunteer">Volunteer</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <hr>
-      
-      
-        <div class="row">
-         
-          <div class="col-12"><a href="http://www.shooting-stars-foundation.org/" target="_blank"><img src="/assets/img/sponsors/SS New logo.jpg" class="sponsorLogo linode"></img></a></div>
-           
+        <div class="awesome-project-content">
+          <!-- single-awesome-project start -->
+
+           <div class="col-md-4 col-sm-4 col-xs-12 diamond">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.netscout.com"><img src="https://www.netscout.com/themes/custom/netscout/logo.svg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="https://www.netscout.com/themes/custom/netscout/logo.svg">
+                      <h4>NETSCOUT</h4>
+                      <span>Diamond</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+             <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 partner">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.shooting-stars-foundation.org"><img src="assets/img/sponsors/shootingstars.jpg" target="_blank"></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/shootingstars.jpg">
+                      <h4>Shooting Stars Foundation</h4>
+                       <span>Partner</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 gold">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="https://www.wolfram.com/language/"><img src="assets/img/sponsors/wolfram.png" target="_blank"></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/wolfram.png">
+                      <h4>Wolfram</h4>
+                       <span>Gold</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 gold partner">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="https://www.internetdonkey.com"><img src="assets/img/sponsors/internetdonkey.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/internetdonkey.jpg">
+                      <h4>InternetDonkey</h4>
+                      <span>Gold/Partner</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 gold">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.balsamiq.com"><img src="assets/img/sponsors/balsamiq.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/balsamiq.png" />
+                      <h4>Balsamiq</h4>
+                      <span>Gold</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 gold">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.radix.com"><img src="assets/img/sponsors/tech.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/tech.png">
+                      <h4>Radix</h4>
+                      <span>Gold</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+                     <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 gold">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.unity3d.com"><img src="assets/img/sponsors/unity3d.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/unity3d.png">
+                      <h4>Unity3D</h4>
+                      <span>Gold</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.jebrains.com"><img src="assets/img/sponsors/jetbrains.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/jetbrains.png">
+                      <h4>JetBrains</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+           <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.codemag.com"><img src="assets/img/sponsors/codemag.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/codemag.png">
+                      <h4>CodeMag</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+           <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.desmos.com"><img src="assets/img/sponsors/desmos.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/desmos.png">
+                      <h4>Desmos</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          
+            <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.interviewcake.com"><img src="assets/img/sponsors/interviewcake.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/interviewcake.png">
+                      <h4>InterviewCake</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+            <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.phunt.com"><img src="assets/img/sponsors/producthunt.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/producthunt.png">
+                      <h4>ProductHunt</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+             <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.heroku.com"><img src="assets/img/sponsors/heroku.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/heroku.png">
+                      <h4>Heroku</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+            <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="http://www.thinkboard.com"><img src="assets/img/sponsors/thinkboard.png" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/thinkboard.png">
+                      <h4>ThinkBoard</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 other">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="https://aopsacademy.org/"><img src="assets/img/sponsors/aopsacademy.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/aopsacademy.png">
+                      <h4>AOPS ACADEMY</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+           <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 partner">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="https://leangap.org"><img src="assets/img/sponsors/leangap.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/leangap.png">
+                      <h4>LEANGAP</h4>
+                      <span>Other</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+              <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 volunteer">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="assets/img/sponsors/am.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="venobox" data-gall="myGallery" href="assets/img/sponsors/am.png">
+                      <h4>AM Express</h4>
+                      <span>Volunteer</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
         </div>
-
       </div>
-    </section>
-
-
-    <section id="socialmedia">
-         <div class="content">
-           <div style="padding-top:40px" class="sam">Stay Connected!</div>
-            <center>
-               <a href="https://twitter.com/teentechhacks" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <a href="https://facebook.com/teentechhacks" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <a href="https://instagram.com/teentechhacks" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
-            </center>
-            <center>
-               <h4> If you have any questions, please contact us at <a href="mailto:teentechhacks@gmail.com" class="__cf_email__" data-cfemail="e78e898188a794929782959788948e938e8889c99382848f">Teen Hacks</a></h4>
-            </center>
-            <br/>
-            <center>
-               <div class="copyright"> &copy; TeenHacks</div>
-            </center>
-            <br>
-         </div>
-      </section>
-    <footer class="footer">
-      <div class="container">
-        <p>© TeenHacks 2018</p>
-      </div>
-    </footer>
+    </div>
   </div>
-  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:25px;top:0;width:10%;z-index:500;display:none;" href="http://www.shooting-stars-foundation.org?utm_medium=TrustBadge&utm_campaign=na-2018"
-    target="_blank"><img src="assets/img/teenhacksshooting.svg" alt="TeenHacking 2018 Hackathon" style="width:100%"></a>
+  <!-- awesome-portfolio end -->
+   <!-- Start Testimonials -->
+  <div class="ccctestimonials-area">
+    <div class="testi-inner area-padding">
+      <div class="testi-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <!-- Start testimonials Start -->
+            <div class="testimonial-content text-center">
+              <a class="quate" href="#"><i class="fa fa-quote-right"></i></a>
+              <!-- start testimonial carousel -->
+              <div class="testimonial-carousel">
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      The only source of knowledge is experience.
+                    </p>
+                    <h6>Albert Einstein</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      Somewhere something incredible is waiting to be known.
+                    </p>
+                    <h6>Carl Sagan</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      I've not failed.I've found 10,000 ways it won't work
+                    </p>
+                    <h6>Thomas Edison</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+              </div>
+            </div>
+            <!-- End testimonials end -->
+          </div>
+          <!-- End Right Feature -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonials -->
+
+  <!-- Start Suscrive Area -->
+  <div class="suscribe-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+          <div class="suscribe-text text-center">
+            <h3>Welcome to TeenHacks</h3>
+            <a class="sus-btn" href="#register">Register</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Suscrive Area -->
+  <!-- Start contact Area -->
+  <div id="contact" class="contact-area">
+    <div class="contact-inner area-padding">
+      <div class="contact-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h1>Contact us</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-mobile"></i>
+
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-envelope-o"></i>
+                <p>
+                  Email: teenhacks@gmail.com<br>
+                  <span>Web: www.internetdonkey.com</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Start contact icon column -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="single-icon">
+                <i class="fa fa-map-marker"></i>
+                <p>
+                  Location: 178 E Tasman Dr, San Jose<br>
+                  <span>CA 95134, USA</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <!-- Start Google Map -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <!-- Start Map -->
+            <!-- Uncomment below if you wan to use dynamic maps -->
+            <!--<div id="google-map" data-latitude="40.713732" data-longitude="-74.0092704"></div>-->
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Netscouts,SanJose,CA&zoom=13&size=600x350&maptype=roadmap&markers=color:red%7Clabel:S%7C37.4111074,-121.9413827" alt="">
+            <!-- End Map -->
+          </div>
+          <!-- End Google Map -->
+
+          <!-- Start  contact -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form contact-form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+          <!-- End Left contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>TEENHACKS</h2>
+                </div>
+
+                
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/teentechhacks"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.twitter.com/teentechhacks"><i class="fa fa-twitter"></i></a>
+                    </li>
+                     <li>
+                      <a href="https://instagram.com/teentechhacks" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> </p>
+                  <p><span>Email:</span> teenhacks@gmail.com</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="http://www.internetdonkey.com"><img src="assets/img/sponsors/internetdonkey.jpg" alt=""></a>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>TeenHacks</strong>. All Rights Reserved
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+              
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <!-- Uncomment below if you want to use dynamic Google Maps -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script> -->
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -137,7 +137,7 @@
 }
 
 ul.nav li a, ul.nav li a:visited {
-    color: rgba(255,255,0,0,3) !important;
+    color: rgba(255,255,0,0,1) !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
@@ -154,12 +154,12 @@ ul.nav li.active a {
 
 ::selection {
     text-shadow: #96d039 0 0 9.9px;
-    color: #fde145;
+    color: black;
 }
 
 ::-moz-selection {
     text-shadow: #96d039 0 0 9.9px;
-    color: #fde145;
+    color: black;
 }
 
 html {
@@ -325,10 +325,12 @@ th {
 
 /* ---- FONTS ---- */
 
-h1 {
+
+#register h2,h3,h4,h5,a{
     font-weight: 600;
     color: #fde145;
 }
+
 
 #faq p {
     font-family: 'Open Sans', sans-serif;
